@@ -13,8 +13,8 @@
         <main>
             <section class="mail-wrapper">
                 <ul class="main-list">
-                    <li class="mail">
-                        
+                    <li v-for="mail in mailList" :key="index" class="mail">
+                        {{ mail }}
                     </li>
                 </ul>
             </section>
