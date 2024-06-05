@@ -10,9 +10,12 @@
 </head>
 <body>
     <div id="app">
-        <main>
-            <section class="mail-wrapper">
-                <ul v-if="mailList.length === 10" class="main-list">
+        <main class="flex-centered">
+            <section class="mail-wrapper flex-centered column">
+                <h1>
+                    Ecco gli indirizzi eMail da te richiesti
+                </h1>
+                <ul v-if="mailList.length === 10" class="mail-list flex-centered column">
                     <li v-for="mail in mailList" :key="index" class="mail">
                         {{ mail }}
                     </li>

@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generals */
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* list styling */
+.mail-wrapper {
+    width: 1200px;
+}
+
+.mail-wrapper h1 {
+    width: 450px;
+    border: 1px solid black;
+    
+    padding: .5rem 1rem;
+    border-radius: .5rem .5rem 0 0;
+    text-align: center;
+}
+
+.mail-list {
+    width: 450px;
+    border: 1px solid black;
+    border-radius:  0 0 .5rem .5rem;
+    padding: 3rem 0;
+}
+
+.mail-list li {
+    width: 75%;
+    text-align: center;
+    background-color: aquamarine;
+    margin-bottom: .5rem;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
