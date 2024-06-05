@@ -12,7 +12,7 @@
     <div id="app">
         <main>
             <section class="mail-wrapper">
-                <ul class="main-list">
+                <ul v-if="mailList.length === 10" class="main-list">
                     <li v-for="mail in mailList" :key="index" class="mail">
                         {{ mail }}
                     </li>
